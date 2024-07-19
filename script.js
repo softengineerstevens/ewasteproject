@@ -27,7 +27,7 @@ function handleItemSelection() {
             event.preventDefault();
             let selectedItem = event.target.getAttribute('data-item');
             console.log("Item selected:", selectedItem);
-            fetch('http://localhost:3001/posts', {
+            fetch('https://my-json-server.typicode.com/softengineerstevens/ewasteproject', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -48,7 +48,7 @@ form1.addEventListener('submit', event => {
     console.log("Submitting personal information form");
     const formData = new FormData(form1);
     const data = Object.fromEntries(formData);
-    fetch('http://localhost:3001/posts', {
+    fetch(' https://my-json-server.typicode.com/softengineerstevens/ewasteproject', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -78,7 +78,7 @@ function handleLocationSelection() {
             event.preventDefault();
             let selectedLocation = event.target.getAttribute('data-location');
             console.log("Location selected:", selectedLocation);
-            fetch('http://localhost:3001/posts', {
+            fetch(' https://my-json-server.typicode.com/softengineerstevens/ewasteproject', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -131,7 +131,7 @@ function initializeDatePicker() {
             let selectedDate = document.getElementById('date-picker').value;
             if (selectedDate) {
                 console.log("Date selected:", selectedDate);
-                fetch('http://localhost:3001/posts', {
+                fetch(' https://my-json-server.typicode.com/softengineerstevens/ewasteproject', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -162,7 +162,7 @@ function handleAdditionalInfoSubmission() {
         console.log("Submitting additional information form");
         const additionalInfo = document.getElementById('additionalInfo').value;
         if (additionalInfo) {
-            fetch('http://localhost:3001/posts', {
+            fetch(' https://my-json-server.typicode.com/softengineerstevens/ewasteproject', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

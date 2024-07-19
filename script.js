@@ -177,4 +177,3 @@ function handleAdditionalInfoSubmission() {
     });
 }
 handleAdditionalInfoSubmission();
-

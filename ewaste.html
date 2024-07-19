@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ewaste.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <div class="frame">
+        <div class="container" id="container">
+            <nav>
+                <div class="logo-container">
+                    <img src="images/ewaste3.jpeg" alt="ewaste-recycling" class="logo" id="logo">
+                    <span class="mission"><em>Sustainability starts with you!</em></span>
+                </div>
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>CONTACT US</li>
+                    <li>BLOGS</li>
+                    <li>SIGN OUT</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="buttons" id="buttons">
+            <ul>
+                <br>
+                <br>
+                <li class="personal" id="personal"><button>PERSONAL AND CONTACT DETAILS</button></li>
+                <br>
+                <br>
+                <li class="itemdetails" id="itemdetails"><button>ITEM DETAILS</button>
+                    <ul class="dropdown" id="itemDropdown" style="display: none;">
+                        <li><a href="#" data-item="Small Household Appliances and Personal Care Devices">Small Household Appliances and Personal Care Devices e.g blenders, hair-dryers, leaf blowers.</a></li>
+                        <li><a href="#" data-item="Consumer Electronics and Home Entertainment">Consumer Electronics and Home Entertainment e.g Gaming consoles, Television, Phones, Projectors.</a></li>
+                        <li><a href="#" data-item="Computing and Telecommunications Equipment">Computing and Telecommunications Equipment e.g Computers, Peripherals, Landlines, Chargers, Cables.</a></li>
+                        <li><a href="#" data-item="Wearable and Medical Devices">Wearable and Medical Devices e.g Smartwatches, hearing aids, electric toys, blood pressure monitors.</a></li>
+                    </ul>
+                </li>
+                <br>
+                <br>
+
+                 <li class="location" id="location"><button>LOCATION DETAILS</button>
+                    <ul class="dropdown" id="locationDropdown" style="display: none;">
+                        <li><a href="#" data-location="Nairobi">Nairobi</a></li>
+                        <li><a href="#" data-location="Kisumu">Kisumu</a></li>
+                        <li><a href="#" data-location="Mombasa">Mombasa</a></li>
+                        <li><a href="#" data-location="Nyeri">Nyeri</a></li>
+                        <li><a href="#" data-location="Eldoret">Eldoret</a></li>
+                        <li><a href="#" data-location="Kisii">Kisii</a></li>
+                        <li><a href="#" data-location="Garissa">Garissa</a></li>
+                    </ul>
+                </li>
+
+                <br>
+                <br>
+                <li class="dates" id="dates"><button>COLLECTION DATES</button></li>
+            </ul>
+        </div>
+
+        <div class="form-container" id="form-container">
+            <form id="personalinfoform">
+                <h2>Personal and Contact Details</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div class="textbox">
+            <h2>ADDITIONAL INFORMATION</h2>
+            <form id="additionalInfoForm">
+                <textarea id="additionalInfo" placeholder="Type your text here..."></textarea>
+                <button type="submit" id="miniSubmitButton">Submit</button>
+            </form>
+        </div>
+        
+        
+        <footer class="container">
+            <ul>
+                <li>email: ewastesolutions.com</li>
+                <li>X: @ewastesolutions</li>
+                <li>facebook: ewastesolutions</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/en.js"></script>
+    <script src="ewaste.js"></script>  
+</body>
+</html>
+
+

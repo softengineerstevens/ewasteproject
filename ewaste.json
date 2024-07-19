@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": "bf38",
+      "name": "Stephen Ombwodo",
+      "email": "wwww@ddddd",
+      "phone": "45554554"
+    },
+    {
+      "id": "821e",
+      "item": "Computing and Telecommunications Equipment"
+    },
+    {
+      "id": "024b",
+      "location": "Nairobi"
+    },
+    {
+      "id": "3d03",
+      "collectionDate": "2024-08-03 14:00"
+    },
+    {
+      "id": "e57c",
+      "additionalInfo": "utawala, shooters. fridge, washing machine"
+    }
+  ]
+}
